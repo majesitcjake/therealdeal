@@ -1,0 +1,36 @@
+body{
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 0px;
+}
+#testshot{
+    margin: 0;
+    padding: 0;
+    top: 0px;
+}
+#testshot{
+    background-color: transparent;
+    background-image: transparent;
+}
+#testshot:hover{
+    color: hotpink;
+    background-image: url(winterday.jpeg);
+}
+#songs{
+position: relative;
+top: 100px;
+right: 0px;
+}
+#songs:hover{
+    color: darkorange;
+    background-image: url(helloabe.gif);
+}
+#covers{
+    background-color: transparent;
+    background-image: none;
+    position: absolute; right: 0;
+}
+#covers:hover{
+    color: brown;
+    background-image: url(HNI_0010.JPG);
+}
