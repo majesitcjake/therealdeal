@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height:100%;
+    background-color:white;
+}
+
+.box{
+    border: 2px solid;
+}
+
+.song{
+    border: transparent; 
+    background-color: transparent; 
+    cursor: pointer;
+}
+
+.song:hover{
+    background-color: brown;
+}
+.color{
+    color: black;
+}
+
+.color:hover{
+    color: green;
+}
+
+#cover{
+
+}
+.images{
+    border-style: solid;
+}
