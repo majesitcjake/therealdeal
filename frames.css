@@ -10,5 +10,19 @@ html{
 
 body{
     height:100%;
-    background-color:maroon;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(ROAMING.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.me{
+    border: none;
+    background: none;
+    text-decoration: none;
+    padding: none;
+    margin: none;
+    outline: none;
+    border-width: 0;
 }
