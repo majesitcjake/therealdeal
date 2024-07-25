@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    flex-direction:row;
+    align-items:start;
+}
+
+marquee{
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    flex-direction:row;
+    align-items:start;
+}
+
+.images{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}

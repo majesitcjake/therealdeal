@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+div{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    flex: row;
+    background-image: url(skyguf.gif);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.songs{
+    padding: 0px;
+    margin: 0px;
+    display:inline-block;
+    box-sizing: content-box;
+    display:inline-block;
+    width: 20%;
+    height:100%;
+    border: solid;
+    border-width: 4px;
+    background-image: url(haste.png);
+    background-size: cover;
+    overflow-y:auto
+}
+
+.videos{
+    box-sizing: content-box;
+    display:inline-block;
+    width:20%;
+    height:100%;
+    padding: 0px;
+    margin: 0px;
+    border: solid;
+    border-width: 4px;
+    background-color: black;
+    overflow-y:auto
+}
+
+.video{
+    box-sizing: content-box;
+    display:flex;
+    align-items: center;
+    width:fit-content;
+    height:fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+
+.images{
+    box-sizing:content-box;
+    display:list-item; padding: 0%;
+    flex-wrap: wrap;
+    width:20%;
+    height:100%;
+    padding: 0px;
+    margin: 0px;
+    border: solid;
+    border-width: 4px;
+    overflow-y:scroll;
+}
+
+.row1{
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex:auto;
+    flex-direction:unset;
+}
+
+.row2{
+    height: fit-content;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    flex:auto;
+    flex-direction:unset; 
+}
+
+.row3{
+    height: fit-content;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    flex:auto;
+    flex-direction:unset; 
+}
+
+.single{
+    display: block;
+    width: 43px;
+    height: 43px;
+}
+
+.text{
+    width:20%;
+    padding: 0px;
+    margin: 0px;
+    border: solid;
+    border-width: 4px;
+    float: right;
+    background-color: white;
+    background-size: cover;
+}
