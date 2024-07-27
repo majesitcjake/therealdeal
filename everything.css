@@ -28,7 +28,8 @@ body{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
+    color: black;
 }
 
 .songs{
@@ -119,6 +120,7 @@ a{
 
 .text{
     width:20%;
+    height: 100%;
     padding: 0px;
     margin: 0px;
     border: solid;
@@ -126,4 +128,7 @@ a{
     float: right;
     background-color: white;
     background-size: cover;
+    display: flex;
+    flex: wrap;
+    overflow-y:scroll;
 }
